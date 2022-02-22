@@ -47,7 +47,9 @@ li a{
     color: black;
     background-color: white;
     font-weight: bold;
-
+}
+li a:hover{
+    background-color: #cecece;
 }
 /* img-1 */
 .container-differente{
