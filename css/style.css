@@ -57,6 +57,7 @@ li a{
     position: relative;
 }
 .differente-img{
+    width: 30%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -72,6 +73,7 @@ li a{
 
 }
 .tommi-img{
+    width: 30%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -95,10 +97,11 @@ li a{
 
 h1{
     text-transform: uppercase;
-    font-size: 50px;
+    font-size: 40px;
     color: #FFFF00;
+    padding-left:30px ;
 }
-.container-converse>h1{
+.container-converse h1{
     color: #008000;
 }
 img{
