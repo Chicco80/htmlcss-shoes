@@ -13,11 +13,13 @@
     float: right;
     
 }
-/* inizio */
+
+
 .nav-bar{
     width: 100%;
     height: 100px;
     background-color: #FF0000;
+    position: fixed;
 }
 ul{
     list-style: none;
@@ -25,7 +27,7 @@ ul{
 li{
     display: inline-block;
     text-decoration: none;
-    /* border: 1px solid white; */
+    
 }
 li a{
     border: 1 px solid white;
@@ -34,7 +36,35 @@ li a{
     border: 2px solid white;
     font-size: 25px;
     padding: 15px;
+    margin-right: 30px;
+    border-radius: 50%;
+    color: black;
+    background-color: white;
+    font-weight: bold;
 
+}
+/* img-1 */
+.container-differente{
+    width: 100%;
+    height: 100vh;
+    background-color:#FF0000;
+    
+}
 
+.differente-title{
+    font-size: 50px;
+    color:#FFFF00;
+    text-transform: uppercase;
+}
+.container-tommi{
+    width: 100%;
+    height: 100vh;
+    background-color:#008000 ;
+}
+.container-converse{
+    width: 100%;
+    height: 100vh;
+    background-color:#FFFF00 ;
+}
 
 }
